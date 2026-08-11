@@ -1,0 +1,17 @@
+# Compiled executable
+main.exe
+main
+
+# Object files
+*.o
+*.obj
+
+# VS Code settings
+.vscode/
+
+# Generated compression files
+compressed.huff
+decompressed.txt
+
+# Compression history generated while running
+history.txt

@@ -1,0 +1,14 @@
+Huffman coding is a lossless data compression algorithm.
+It works by assigning shorter binary codes to characters that appear more frequently.
+Characters that occur less frequently receive longer binary codes.
+
+Data compression is useful because it reduces the amount of storage required for files.
+It can also reduce the amount of data that needs to be transmitted across a network.
+
+Huffman coding builds a binary tree based on character frequencies.
+The two least frequent nodes are repeatedly combined until a single tree remains.
+The resulting tree is then used to generate unique binary codes for every character.
+
+This project demonstrates file compression and decompression using Huffman coding.
+The original file is analyzed, compressed into binary data, and later reconstructed without losing any information.
+Lossless compression ensures that the decompressed file is exactly the same as the original file.
